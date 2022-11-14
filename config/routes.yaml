@@ -1,0 +1,16 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+blog_list:
+    path: /blog
+    # the controller value has the format 'controller_class::method_name'
+    controller: App\Controller\BlogController::list
+# api_post_show:
+#     path:       /api/posts/{id}
+#     controller: App\Controller\BlogApiController::show
+#     methods:    GET|HEAD
+
+# api_post_edit:
+#     path:       /api/posts/{id}
+#     controller: App\Controller\BlogApiController::edit
+#     methods:    PUT
